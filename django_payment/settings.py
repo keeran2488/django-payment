@@ -40,8 +40,6 @@ INSTALLED_APPS = [
 
     'rest_framework',
 
-    'khalti',
-    'esewa',
 ]
 
 MIDDLEWARE = [
@@ -123,3 +121,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+KHALTI_SECRET_KEY = "test_secret_key_8798e5c3d11844d3ae7e76b119cdcd2c"
+KHALTI_VERIFY_URL = "https://khalti.com/api/v2/payment/verify/"
+
+ESEWA_SECRET_KEY = "<secret key>"
+ESEWA_VERIFY_URL = "<verify url>"
